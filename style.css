@@ -23,3 +23,8 @@ body header h1{
      display: flex;
      justify-content: space-evenly;
  }
+ 
+header{
+    display: flex;
+    align-items: center;
+}
