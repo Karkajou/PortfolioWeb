@@ -1,6 +1,4 @@
-body header h1{
-    font-style: oblique;
-}
+
 /* NavBar*/
 .Menu {
     overflow: hidden;
@@ -19,12 +17,22 @@ body header h1{
     height: 1500px;
 }
  nav ul{
-     list-style: none;
-     display: flex;
-     justify-content: space-evenly;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    
  }
  
 header{
     display: flex;
     align-items: center;
+   
+    
+}
+header nav ul{
+    margin-right: 5px;
+    margin-left: 30px
+}
+header h1{
+    margin-left: 2vw;
 }
