@@ -51,7 +51,11 @@ header button{
 
 /*Page1*/
 
-#presentation
-{
-    background-color: white;
+html, body{
+margin: 0;
+height: 100%;
+}
+
+#presentation img{
+    
 }
