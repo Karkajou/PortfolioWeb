@@ -71,6 +71,8 @@ height: 100%;
 
 /*2e page*/
 
-#projets{
+#projets ul li{
     list-style: none;
+    display: grid;
+    grid-template-columns: 2fr 10fr;
 }
