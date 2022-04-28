@@ -50,12 +50,9 @@ header button{
     font-size: 16px;
 }
 
-/*Page1*/
+/*1e section*/
 
-html, body{ /*PEUT ETRE ERREUR ICI*/
-margin: 0;
-height: 100%;
-}
+
 
 #presentation img{
     max-width: 55%;
@@ -64,19 +61,22 @@ height: 100%;
 
 #presentation{
  display: grid;
- grid-template-columns:20fr 12fr 10fr;
+ grid-template-columns:10fr 12fr 10fr;
  align-items: center;
  align-content: center;
 }
 
-/*2e page*/
-
-#projets ul li .left-col{
-    float: right;
-}
+/*2e section*/
 
 #projets ul li{
     list-style: none;
     display: grid;
-    grid-template-columns: 3fr 20fr 15fr;
+    grid-template-columns: 1fr 4fr 3fr;
+    align-items: center;
+}
+
+/*3e section*/
+#AboutMe .content{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
 }
