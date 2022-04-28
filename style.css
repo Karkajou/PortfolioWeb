@@ -1,3 +1,6 @@
+body{
+    background-color: #d3d3d3;
+}
 /*Barre de nav*/
 .Menu {
     display: grid;
@@ -5,7 +8,7 @@
     grid-template-columns: 2fr 4fr; 
     align-content: center;     /*SEPARATION DE BARRE NAV*/
     overflow: hidden;
-    background-color: rgb(18, 19, 19);
+    background-color: #232629;
     padding: 10px;
     top: 0;
     width: 100%;
@@ -52,7 +55,12 @@ header button{
 
 /*1e section*/
 
-
+#presentation{
+    padding-top: 10vw;
+    margin-bottom: 10vw;
+    background-color: #bdbdbd;
+    border: 1vw solid #bdbdbd;
+}
 
 #presentation img{
     max-width: 55%;
@@ -61,17 +69,26 @@ header button{
 
 #presentation{
  display: grid;
- grid-template-columns:10fr 12fr 10fr;
+ grid-template-columns:3fr 2fr 1fr;
  align-items: center;
  align-content: center;
 }
 
 /*2e section*/
 
+#projets ul{
+    margin-top: 2vw;
+    margin-bottom: 5vw;
+    background-color: #9e9e9e;
+    border: 1vw solid #bdbdbd;
+}
+
 #projets ul li{
     list-style: none;
     display: grid;
     grid-template-columns: 1fr 2fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    justify-content: center;
     align-items: center;
 }
 
@@ -81,6 +98,12 @@ header button{
 }
 
 /*3e section*/
+#AboutMe{
+    background-color: #7d7d7d;
+    margin-top: 10vw;
+    margin-bottom: 10vw;
+}
+
 #AboutMe .Content{
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -105,6 +128,41 @@ header button{
 }
 
 .right-side .middle-up{
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+}
+
+/*4e section*/
+
+#Contacts{
+    background-color: #696969;
+    margin-top: 10vw;
+    margin-bottom: 10vw;
+}
+
+#Contacts .Content{
+   display: flex;
+   justify-items: center;
+   margin-top: 10vw;
+   margin-bottom: 10vw;
+}
+
+#Contacts ul{
+    list-style: none;
+    display: grid;
+    grid-template-rows: 2fr 1frs;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 9vw;
+}
+
+#Contacts img{
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    margin: auto;
+}
+#Contacts a{
     display: flex;
     justify-content: center;
     justify-items: center;
