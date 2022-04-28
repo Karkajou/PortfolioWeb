@@ -101,8 +101,11 @@ header button{
     display: grid;
     grid-template-columns: 1frs;
     grid-template-rows: 1fr;
-    
-
+    margin: auto;
 }
 
-
+.right-side .middle-up{
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+}
