@@ -10,6 +10,7 @@
     top: 0;
     width: 100%;
     height: 50px;
+    padding-right: 10px;
 }
 
 .Menu a:hover{
