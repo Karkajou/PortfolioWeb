@@ -99,9 +99,10 @@ header button{
 }
 .right-side{
     display: grid;
-    grid-template-columns: 1fr;
+    grid-template-columns: 1frs;
     grid-template-rows: 1fr;
-    float: right;
+    
+
 }
 
 
