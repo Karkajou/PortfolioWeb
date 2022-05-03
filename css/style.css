@@ -15,6 +15,8 @@
 
 body{
     background-color: var(--clr-gristemp) ;
+    padding: 0;
+    margin: 0;
 }
 /*Barre de nav*/
 .Menu {
@@ -30,10 +32,14 @@ body{
     height: 50px;
 }
 
-.Menu a:hover{
-    background: #ddd;
-    color: black;
+.Menu a:link{ text-decoration: none;}
+
+.Menu a:visited{ text-decoration: none;}
+
+.Menu button:hover{
+    background: var(--clr-gris4);
 }
+
 
 .main {
     padding: 16px;
@@ -72,44 +78,52 @@ header button{
 
 #presentation{
     padding-top: 10vw;
-    margin-bottom: 10vw;
+    padding-bottom: 15vw;
     background-color: var(--clr-gris1);
-    border: 1vw solid var(--clr-gris1);
+    display: grid;
+    grid-template-columns:3fr 2fr 1fr;
+    align-items: center;
+    align-content: center;
 }
 
 #presentation img{
     max-width: 55%;
     float: right;
+    margin-right: 20px;
+    border-style: solid;
+    
 }
 
-#presentation{
- display: grid;
- grid-template-columns:3fr 2fr 1fr;
- align-items: center;
- align-content: center;
-}
 
 /*2e section*/
+#projets{
+     background-color: var(--clr-gris2);
+     padding-top: 5px;
+     padding-bottom: 5px;
+}
 
 #projets ul{
     margin-top: 2vw;
     margin-bottom: 5vw;
-    background-color: var(--clr-gris2);
-    border: 1vw solid var(--clr-gris2);
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
 }
 
 #projets ul li{
     list-style: none;
-    display: grid;
-    grid-template-columns: 1fr 2fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr;
-    justify-content: center;
-    align-items: center;
+    border-style: solid;
 }
 
 #projets ul img{
     float: right;
     margin-right: 10px;
+    grid-row: 1;
+    grid-column: auto;
+}
+#projet ul text{
+    grid-row: 2;
+    grid-column: auto;
 }
 
 /*3e section*/
