@@ -1,5 +1,20 @@
+:root{
+    /*General*/
+ --font-important:Arial;
+ --font-text:Georgia;
+ 
+ /*Couleurs*/
+
+--clr-grisnav: #232629;
+--clr-gris1: #bdbdbd;
+--clr-gris2: #9e9e9e;
+--clr-gris3: #7d7d7d;
+--clr-gris4: #696969;
+--clr-gristemp: #d3d3d3;
+}
+
 body{
-    background-color: #d3d3d3;
+    background-color: var(--clr-gristemp) ;
 }
 /*Barre de nav*/
 .Menu {
@@ -8,7 +23,7 @@ body{
     grid-template-columns: 2fr 4fr; 
     align-content: center;     /*SEPARATION DE BARRE NAV*/
     overflow: hidden;
-    background-color: #232629;
+    background-color: var(--clr-grisnav);
     padding: 10px;
     top: 0;
     width: 100%;
@@ -58,8 +73,8 @@ header button{
 #presentation{
     padding-top: 10vw;
     margin-bottom: 10vw;
-    background-color: #bdbdbd;
-    border: 1vw solid #bdbdbd;
+    background-color: var(--clr-gris1);
+    border: 1vw solid var(--clr-gris1);
 }
 
 #presentation img{
@@ -79,8 +94,8 @@ header button{
 #projets ul{
     margin-top: 2vw;
     margin-bottom: 5vw;
-    background-color: #9e9e9e;
-    border: 1vw solid #bdbdbd;
+    background-color: var(--clr-gris2);
+    border: 1vw solid var(--clr-gris2);
 }
 
 #projets ul li{
@@ -99,7 +114,7 @@ header button{
 
 /*3e section*/
 #AboutMe{
-    background-color: #7d7d7d;
+    background-color: var(--clr-gris3);
     margin-top: 10vw;
     margin-bottom: 10vw;
 }
@@ -136,7 +151,7 @@ header button{
 /*4e section*/
 
 #Contacts{
-    background-color: #696969;
+    background-color: var(--clr-gris4);
     margin-top: 10vw;
     margin-bottom: 10vw;
 }
