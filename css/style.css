@@ -110,6 +110,20 @@ header button{
     grid-template-rows: 1fr 1fr 1fr;
 }
 
+#projets ul .Element1{
+    grid-row: 1; /*y*/
+    grid-column: 1; /*x*/
+}
+#projets ul .Element2{
+    grid-row: 2;
+    grid-column: 1;
+}
+
+#projets ul .Element3{
+    grid-row: 3;
+    grid-column: 1;
+}
+
 #projets ul li{
     list-style: none;
     border-style: solid;
