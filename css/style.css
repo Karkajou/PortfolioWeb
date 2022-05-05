@@ -20,10 +20,10 @@ body{
     margin: 0;
 }
 
-*{
+/**{
      outline: 1px solid red;
      outline-offset: -1px;
-}
+}*/
 
 /*Barre de nav*/
 .Menu {
@@ -82,8 +82,10 @@ header button{
 /*1e section*/
 
 #presentation{
+    outline: 1px solid var(--clr-grisnav);
+    outline-offset: -1px;
     padding-top: 10vw;
-    padding-bottom: 15vw;
+    padding-bottom: 20vw;
     background-color: var(--clr-gris1);
     display: grid;
     grid-template-columns:3fr 2fr 1fr;
@@ -102,6 +104,8 @@ header button{
 
 /*2e section*/
 #projets{
+     outline: 1px solid var(--clr-grisnav);
+     outline-offset: -1px;
      background-color: var(--clr-gris2);
      padding-top: 5px;
      padding-bottom: 5px;
@@ -109,8 +113,7 @@ header button{
 
 #projets .after-title-content{
      display: flex;
-     margin: 150px;
-
+     margin: 100px;
 }
 
 #projets ul{
@@ -118,9 +121,12 @@ header button{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr;
+
     margin-top: 2vw;
     margin-bottom: 5vw;
-    align-content: center;
+    margin-left: 10vw;
+    margin-right:10vw;
+    padding-left: 15vw;
 }
 
 #projets ul li{
@@ -155,9 +161,11 @@ header button{
 
 /*3e section*/
 #AboutMe{
+    outline: 1px solid var(--clr-grisnav);
+    outline-offset: -1px;   
     background-color: var(--clr-gris3);
-    margin-top: 10vw;
-    margin-bottom: 10vw;
+    padding-top: 10vw;
+    padding-bottom: 10vw;
 }
 
 #AboutMe .Content{
@@ -192,9 +200,11 @@ header button{
 /*4e section*/
 
 #Contacts{
+    outline: 1px solid var(--clr-grisnav);
+    outline-offset: -1px;
     background-color: var(--clr-gris4);
-    margin-top: 10vw;
-    margin-bottom: 10vw;
+    padding-top: 5vw;
+    padding-bottom:5vw;
 }
 
 #Contacts .Content{
@@ -218,6 +228,23 @@ header button{
     justify-items: center;
     margin: auto;
 }
+
+#Contacts a{ 
+color: var(--clr-gristemp);
+text-decoration: none;
+}
+
+#Contacts a:visited{ text-decoration: none;}
+
+#Contacts a:hover{background-color: var(--clr-grisnav);}
+
+/*#Contact link{text-decoration: none;}
+
+#Contacts a:hover{text-decoration: none;}
+
+#Contact a:visited{text-decoration: none;}*/
+
+
 #Contacts a{
     display: flex;
     justify-content: center;
