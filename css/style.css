@@ -12,6 +12,11 @@
 --clr-gris3: #7d7d7d;
 --clr-gris4: #696969;
 --clr-gristemp: #d3d3d3;
+--clr-texte: #000000;
+}
+
+img{
+    border-style: solid; 
 }
 
 body{
@@ -20,10 +25,10 @@ body{
     margin: 0;
 }
 
-/**{
+*{
      outline: 1px solid red;
      outline-offset: -1px;
-}*/
+}
 
 /*Barre de nav*/
 .Menu {
@@ -97,8 +102,6 @@ header button{
     max-width: 55%;
     float: right;
     margin-right: 20px;
-    border-style: solid;
-    
 }
 
 
@@ -164,8 +167,16 @@ header button{
     outline: 1px solid var(--clr-grisnav);
     outline-offset: -1px;   
     background-color: var(--clr-gris3);
+    padding-top: 1vw;
+}
+
+#AboutMe .Content{
     padding-top: 10vw;
     padding-bottom: 10vw;
+}
+
+#AboutMe .middle-up img:hover{
+    border-color: var(--clr-gristemp);
 }
 
 #AboutMe .Content{
@@ -197,6 +208,17 @@ header button{
     justify-items: center;
 }
 
+#AboutMe a{
+    color: var(--clr-texte);
+}
+
+#AboutMe a:link{text-decoration: none;}
+
+#AboutMe .middle-down a:hover{
+    color: var(--clr-grisnav);
+    background-color: var(--clr-gristemp);
+}
+
 /*4e section*/
 
 #Contacts{
@@ -222,6 +244,10 @@ header button{
     gap: 9vw;
 }
 
+#Contacts img:hover{
+    border-color: var(--clr-gristemp);
+}
+
 #Contacts img{
     display: flex;
     justify-content: center;
@@ -230,13 +256,13 @@ header button{
 }
 
 #Contacts a{ 
-color: var(--clr-gristemp);
+color: var(--clr-texte);
 text-decoration: none;
 }
 
 #Contacts a:visited{ text-decoration: none;}
 
-#Contacts a:hover{background-color: var(--clr-grisnav);}
+#Contacts .bottom a:hover{background-color: var(--clr-gristemp);}
 
 /*#Contact link{text-decoration: none;}
 
