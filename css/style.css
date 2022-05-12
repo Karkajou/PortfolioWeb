@@ -51,10 +51,9 @@ body{
     background: var(--clr-gris4);
 }
 
-.Menu ul{
+.Menu nav {
     margin: 0;
     align-items: center;
-    justify-content: space-between;
 }
 
 .main {
@@ -63,7 +62,7 @@ body{
     height: 1500px;
 }
 
-.grid-container{
+.element-list{
     list-style: none;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
@@ -85,7 +84,6 @@ header button{
     padding: 15px 32px;
     text-align: center;
     text-decoration: none;
-    display: inline-block;
     font-size: 16px;
 }
 
@@ -100,7 +98,7 @@ header button{
     display: grid;
     grid-template-columns:3fr 2fr 1fr;
     align-items: center;
-    align-content: center;
+    justify-content: center;
 }
 
 
@@ -156,10 +154,10 @@ header button{
     align-self: flex-start;
 }
 
-.projets img{
+/*.projets img{
    display:flex;
    margin: auto;
-}
+}*/
 
 #projets ul .Element1{
     grid-row: 1; /*y*/
