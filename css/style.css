@@ -261,8 +261,6 @@ header button{
 
 .Contacts img{
     display: flex;
-    justify-content: center;
-    justify-items: center;
     margin: auto;
 }
 
@@ -273,7 +271,7 @@ text-decoration: none;
 
 .Contacts a:visited{ text-decoration: none;}
 
-.Contacts .bottom a:hover{background-color: var(--clr-gristemp);}
+.Contacts .bottom a:hover{color: var(--clr-gristemp);}
 
 /*.Contact link{text-decoration: none;}
 
