@@ -11,6 +11,7 @@
 --clr-gristemp: #d3d3d3;
 --clr-texte: #000000;
 }
+
 /*--------------------Texte--------------------*/
 
 p{
@@ -31,10 +32,6 @@ body{
     margin: 0;
 }
 
-*{
-     outline: 1px solid red;
-     outline-offset: -1px;
-}
 /*--------------------Nav--------------------*/
 .retour a:link{text-decoration: none;}
 .retour a:visited{text-decoration: none;}
@@ -64,10 +61,31 @@ button{
 button:hover{background-color: var(--clr-gris2);}
 
 /*--------------------Section principale--------------------*/
+
+.right-col{
+    display: flex;
+    margin-right: 10px;
+    padding-left: 50px;
+}
+
+ul{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 15vw;
+    margin-right: 15vw;
+    margin-top: 5vw;
+}
+
+ul{
+    border-style: solid;
+    padding-top: 5vw;
+}
+
 ul li{
     display: flex;
     flex-direction: row;
-    margin-bottom: 10vw;
+    margin-bottom: 5vw;
     gap: 3vw;
 }
 
@@ -82,3 +100,4 @@ ul li{
     justify-content: center;
     align-items: center;
 }
+

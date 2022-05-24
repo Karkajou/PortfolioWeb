@@ -33,11 +33,6 @@ body{
     margin: 0;
 }
 
-*{
-     outline: 1px solid red;
-     outline-offset: -1px;
-}
-
 /*--------------------Barre de nav-------------------*/
 .Menu {
     display: grid;
@@ -119,6 +114,9 @@ header button{
     margin-right: 20px;
 }
 
+.presentation .right-col{
+    padding-right: 17vw;
+}
 
 /*--------------------Section Projets--------------------*/
 
@@ -129,6 +127,11 @@ header button{
     background-color: var(--clr-gris2);
     padding-top: 5px;
     padding-bottom: 5px;
+}
+
+.projets img{ 
+    background-color: var(--clr-gris4);
+    margin-left: 10px;
 }
 
 .projets .after-title-content{
@@ -260,6 +263,7 @@ header button{
 }
 
 .Contacts img{
+    background-color: var(--clr-texte);
     display: flex;
     margin: auto;
 }
