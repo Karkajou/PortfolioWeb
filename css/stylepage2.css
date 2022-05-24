@@ -1,0 +1,84 @@
+:root{
+    @import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@1,400;1,500;1,600;1,800&family=Roboto:ital,wght@0,100;0,300;0,400;1,100;1,300&display=swap');
+    font-family: 'EB Garamond', serif;
+    font-family: 'Roboto', sans-serif;
+ /*---------------------Couleurs--------------------*/
+
+--clr-grisnav: #232629;
+--clr-gris1: #bdbdbd;
+--clr-gris2: #696969;
+--clr-grisbouton: #3d4247;
+--clr-gristemp: #d3d3d3;
+--clr-texte: #000000;
+}
+/*--------------------Texte--------------------*/
+
+p{
+    font-family: 'Roboto', sans-serif;
+}
+
+h1{
+    font-family: 'EB Garamond', serif;
+}
+
+img{
+    border-style: solid; 
+}
+
+body{
+    background-color: var(--clr-gristemp);
+    padding: 0;
+    margin: 0;
+}
+
+*{
+     outline: 1px solid red;
+     outline-offset: -1px;
+}
+/*--------------------Nav--------------------*/
+.retour a:link{text-decoration: none;}
+.retour a:visited{text-decoration: none;}
+.retour a:hover{background-color: var(--clr-gristemp);}
+.retour a{color: var(--clr-gristemp);}
+
+header{padding: 10px;}
+
+header{
+    background-color: var(--clr-grisnav);
+}
+
+header nav{
+    display: flex;
+    justify-content: center;
+}
+
+button{
+  
+    border-style: none;
+    color: var(--clr-gristemp);
+    background-color: var(--clr-grisbouton);
+    text-decoration: none;
+    padding: 10px 50px;
+}
+
+button:hover{background-color: var(--clr-gris2);}
+
+/*--------------------Section principale--------------------*/
+ul li{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 10vw;
+    gap: 3vw;
+}
+
+.left-col{
+    float: right;
+    align-items: center;
+}
+
+.right-col{
+    margin: 0;
+    padding-right: 10vw;
+    justify-content: center;
+    align-items: center;
+}
